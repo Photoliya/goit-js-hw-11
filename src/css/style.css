@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Geologica', sans-serif;
+}
+
 :root {
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --animation-duration: 300ms;
@@ -34,7 +38,8 @@ p {
 }
 
 .header {
-    background-color: rgb(71, 78, 180);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(70, 202, 252, 1) 100%);
     padding: 10px 0;
     display: flex;
     justify-content: space-between;

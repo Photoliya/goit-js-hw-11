@@ -1,4 +1,4 @@
-export function renderImages(hits, index) {
+export function renderImages(hits) {
     return hits
       .map(
         ({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) => `
